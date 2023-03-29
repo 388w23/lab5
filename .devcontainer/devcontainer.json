@@ -4,5 +4,11 @@
     "service": "workspace",
     "workspaceFolder": "/workspaces/lab5",
     "remoteUser": "eecs388",
-    "extensions": ["ms-azuretools.vscode-docker"]
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
 }
